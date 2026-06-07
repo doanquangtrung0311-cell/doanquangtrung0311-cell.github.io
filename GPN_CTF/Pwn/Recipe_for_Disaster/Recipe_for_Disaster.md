@@ -6,6 +6,12 @@ Mảng: Pwn
 
 Mô tả: Are you hungry? If so, I have this awesome food ordering app for you. I only ask you not to break it.
 
+### 📂 Tài nguyên bài tập
+Bạn có thể tải các file tại đây để thực hành:
+* [Mã nguồn (challenge.c)](./challenge.c)
+* [File thực thi (challenge)](./challenge)
+* [Script khai thác (script_Recipe_for_Disaster.py)](./script_Recipe_for_Disaster.py)
+
 __Địa chỉ server__:
 _``
 ncat --ssl flash-fried-truffle-crusted-with-braised-pesto-m766.gpn24.ctf.kitctf.de 443
