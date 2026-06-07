@@ -12,6 +12,8 @@ Bạn có thể tải các file tại đây để thực hành:
 * [File thực thi (challenge)](./challenge)
 * [Script khai thác (script_Recipe_for_Disaster.py)](./script_Recipe_for_Disaster.py)
 
+[**📥 Tải toàn bộ file giải bài này**](https://github.com/doanquangtrung0311-cell/doanquangtrung0311-cell.github.io/raw/main/GPN_CTF/Pwn/Recipe_for_Disaster/recipe-for-disaster.tar.gz)
+
 __Địa chỉ server__:
 _``
 ncat --ssl flash-fried-truffle-crusted-with-braised-pesto-m766.gpn24.ctf.kitctf.de 443
