@@ -33,7 +33,7 @@ Khi ta đọc mã nguồn thì thấy được 1 lỗi __`"Chết người"`__
 
 <img width="209" height="126" alt="image" src="https://github.com/user-attachments/assets/4288e9f7-21e7-4206-985a-4aeedcd6ad3d" />
 
-Trong khi đó biến _`char note[32]`_ thì chỉ được cấp phát có 32 bytes và nó là 1 khối ở trong _`struct`_ nên biến _`price`_ lại nằm sau 
+Trong khi đó biến _`char note[32]`_ thì chỉ được cấp phát có 32 bytes và nó là 1 khối ở trong _`struct`_ nên biến _`price`_ sẽ nằm sau 
 
 __-> Từ đó nếu ta làm tràn biến _`note`_ thì nó sẽ ghi đè lên biến _`price`___
 
