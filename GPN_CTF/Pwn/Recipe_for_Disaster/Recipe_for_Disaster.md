@@ -1,4 +1,4 @@
-<img width="778" height="252" alt="image" src="https://github.com/user-attachments/assets/73d6e254-5ddd-4f4e-90e7-116ab94a0845" />Giải đấu: GPN CTF
+Giải đấu: GPN CTF
 
 Tên bài: Recipe_for_Disaster
 
