@@ -29,7 +29,7 @@ Sau khi đã decode thành file nhị phân thì cần phải kiểm tra những
 
 __-> Có thể thấy được File này là kiến trúc 64-bit và chỉ bật duy nhất lớp bảo vệ NX. Do đó, chúng ta không thể nhồi trực tiếp shellcode lên stack để chạy được, mà khả năng cao sẽ phải dùng kỹ thuật ROP (Return-Oriented Programming) hoặc ret2libc hoặc ret2win__
 
-__2. PHÂN TÍCH FILE__
+__2. PHÂN TÍCH MÃ NGUỒN__
 
 Trước hết cần phải bỏ file vào Ghidra để phân tích
 
