@@ -11,6 +11,7 @@ Bạn có thể tải các file tại đây để thực hành:
 * [File gốc (barbie_core.64)](./barbie_core.64)
 * [File được decode (barbie_core)](./barbie_core)
 * [Script khai thác (script_Barbieland_Buffer_Blowout.py)](./script_Barbieland_Buffer_Blowout.py)
+* [Script khai thác (script_tính_key_target.py)](./script_tính_key_target.py)
 
 Địa chỉ server: _`` nc 162.243.44.232 5000 ``_
 
