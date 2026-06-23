@@ -8,7 +8,7 @@ target = [
 ]
 
 key = ""
-local_19 = 0x42  
+local_19 = 0x42  # Trạng thái khởi tạo ban đầu trong code C
 
 for i in range(16):
     target_val = target[i]
@@ -18,5 +18,5 @@ for i in range(16):
     original_char = bVar2 ^ val_calc
     key += chr(original_char)
     local_19 = target_val ^ (local_19 * ord('!')) & 0xFF
-
+    
 print("Key cần tìm là:", key)
