@@ -8,10 +8,9 @@ Mô tả: A glamorous Barbieland relay kiosk still accepts calibration input bef
 
 ### 📂 Tài nguyên bài tập
 Bạn có thể tải các file tại đây để thực hành:
-* [File thực thi (barbie_core.64)](./barbie_core.64)
+* [File gốc (barbie_core.64)](./barbie_core.64)
+* [File được decode (barbie_core)](./barbie_core)
 * [Script khai thác (script_Barbieland_Buffer_Blowout.py)](./script_Barbieland_Buffer_Blowout.py)
-
-[**📥 Tải toàn bộ file giải bài này**](https://github.com/doanquangtrung0311-cell/doanquangtrung0311-cell.github.io/raw/main/GPN_CTF/Pwn/Recipe_for_Disaster/recipe-for-disaster.tar.gz)
 
 Địa chỉ server: _`` nc 162.243.44.232 5000 ``_
 
