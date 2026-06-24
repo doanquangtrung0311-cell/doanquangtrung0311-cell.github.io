@@ -28,13 +28,13 @@ __2. PHÂN TÍCH MÃ NGUỒN__
 
 Ở bước này chúng ta cần ném file nhị phân mà đề cho vào Ghidra để có thể đọc và phân tích
 
-__``Hàm main``__
+__``HÀM MAIN``__
 
 <img width="876" height="271" alt="image" src="https://github.com/user-attachments/assets/9ad46f4e-4695-43a0-8595-5d81b691acb3" />
 
 Ở đây có thể thấy được rằng chương trình sẽ gọi hàm __``vuln()``__ để mà thực thi các lệnh trong đó -> Thực thi xong sẽ trả về thông báo __``Signal lost.``__ -> Kết thúc chương trình
 
-__``Hàm vuln()``__
+__``HÀM VULN()``__
 
 <img width="882" height="365" alt="image" src="https://github.com/user-attachments/assets/4d94f2df-866d-4c22-bb8e-1e839c51ecff" />
 
