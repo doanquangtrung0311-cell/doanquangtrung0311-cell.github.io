@@ -48,11 +48,11 @@ Việc của chúng ta bây giờ chỉ cần kiểm tra xem trong file này hà
 
 Như ảnh trên, hàm ``mission_clear()`` là hàm đảm nhiệm nhiệm vụ đó
 
-__``Kế hoạch tấn coong``__
+__``KẾ HOẠCH TẤN CÔNG``__
 
 * Tính offset từ chỗ input đến chỗ ``Return Adress`` -> chèn các byte rác để làm tràn và lấp đầy các vùng nhớ -> Trỏ địa chỉ hàm ``mission_clear()`` vào chỗ ``Return Adress`` -> Flag
 
-__3. TẤN CÔNG__
+__3. THỰC HIỆN KẾ HOẠCH__
 
 Trước hết chúng ta cần phải tính offset bằng cách chạy file trong GDB Ubuntu -> dùng lệnh _``cyclic [so_luong_byte_rac]``_
 
