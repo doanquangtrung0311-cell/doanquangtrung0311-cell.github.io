@@ -12,9 +12,9 @@ Dạng flag: bitctf{...}
 
 Bạn có thể tải các file tại đây để thực hành:
 
-File thực thi (samus_stack_smash)(./samus_stack_smash)
+File thực thi [(samus_stack_smash)](./samus_stack_smash)
 
-Script khai thác (script_samus_stack_smash.py)(./script_samus_stack_smash.py)
+Script khai thác [(script_samus_stack_smash.py)](./script_samus_stack_smash.py)
 
 __1. PHÂN TÍCH FILE__
 
