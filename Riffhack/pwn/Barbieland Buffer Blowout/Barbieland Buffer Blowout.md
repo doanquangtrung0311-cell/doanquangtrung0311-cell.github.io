@@ -6,6 +6,8 @@ Mảng: Pwn
 
 Mô tả: A glamorous Barbieland relay kiosk still accepts calibration input before unlocking its backstage tools. Work the console correctly and recover the final pink protocol message.
 
+Dạng flag: bitctf{...}
+
 ### 📂 Tài nguyên bài tập
 Bạn có thể tải các file tại đây để thực hành:
 * [File gốc (barbie_core.64)](./barbie_core.64)
@@ -33,7 +35,7 @@ __2. PHÂN TÍCH MÃ NGUỒN__
 
 Trước hết cần phải bỏ file vào Ghidra để phân tích
 
-__HÀM MAIN__
+__``HÀM MAIN``__
 
 <img width="827" height="516" alt="image" src="https://github.com/user-attachments/assets/12131a45-b467-418e-97c9-6e9ac58ca970" />
 
@@ -62,7 +64,7 @@ Tiếp đến là sẽ rẽ nhánh theo những kí tự mà mình đã nhập v
 
 4. Sau đó sẽ in ra dòng chữ __``Relay closing.``__ và kết thúc thành công với mã là __``0``__
 
-__HÀM CHECK_TOKEN()__
+__``HÀM CHECK_TOKEN()``__
 
 <img width="728" height="611" alt="image" src="https://github.com/user-attachments/assets/6c6ca78b-0d32-432a-9d02-ee86e1955b02" />
 
@@ -82,7 +84,7 @@ Tại mỗi vòng lặp, chương trình sẽ thực hiện các biến đổi p
 
 __-> Trả về __``1``__ khi 16 kí tự đều khớp với mảng __``target.0``__, trả về __``0``__ khi có ít nhất 1 trong 16 kí tự không khớp với mảng __``target.0``__
 
-__HÀM VULNERABLE_PROMPT()__
+__``HÀM VULNERABLE_PROMPT()``__
 
 <img width="442" height="295" alt="image" src="https://github.com/user-attachments/assets/eaa09b12-52ac-495f-b6c7-64bea360fec7" />
 
