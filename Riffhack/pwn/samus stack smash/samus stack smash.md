@@ -9,9 +9,11 @@ Mô tả: A Federation checkpoint AI loops the same authorization prompt while a
 Dạng flag: bitctf{...}
 
 📂 Tài nguyên bài tập
+
 Bạn có thể tải các file tại đây để thực hành:
 
 File thực thi (samus_stack_smash)
+
 Script khai thác (script_samus_stack_smash.py)
 
 __1. PHÂN TÍCH FILE__
