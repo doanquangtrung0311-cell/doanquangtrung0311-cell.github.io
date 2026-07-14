@@ -10,6 +10,11 @@ This should do it. Three gates and a treasure room await your input.
 
 Dạng flag: bronco{...}
 
+### 📂 Tài nguyên bài tập
+Bạn có thể tải các file tại đây để thực hành:
+* [Toàn bộ file (proper.zip)](./proper.zip)
+* [Script khai thác (script_Proper_Pwning.py)](./script_Proper_Pwning.py)
+
 __1. PHÂN TÍCH FILE__ 
 
 Khi mà dùng lệnh _`checksec [ten_file]`_ thì chúng ta được ảnh như bên dưới
